@@ -1,7 +1,16 @@
-/* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
  * Copyright (c) 2015 Rockchip Electronics Co. Ltd.
  * Author: Xing Zheng <zhengxing@rock-chips.com>
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
  */
 
 #ifndef _DT_BINDINGS_CLK_ROCKCHIP_RK3036_H
@@ -43,6 +52,8 @@
 #define SCLK_PVTM_CORE		123
 #define SCLK_PVTM_GPU		124
 #define SCLK_PVTM_VIDEO		125
+#define SCLK_I2S_FRAC		126
+#define SCLK_I2S_PRE		127
 #define SCLK_MAC		151
 #define SCLK_MACREF		152
 #define SCLK_MACPLL		153
@@ -55,6 +66,7 @@
 #define ACLK_VCODEC		208
 #define ACLK_CPU		209
 #define ACLK_PERI		210
+#define ACLK_HEVC		211
 
 /* pclk gates */
 #define PCLK_GPIO0		320
